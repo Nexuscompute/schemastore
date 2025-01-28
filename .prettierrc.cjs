@@ -1,7 +1,10 @@
 /** @type {import('prettier').Config} */
 module.exports = {
   // pre-commit.ci fails without `require.resolve()`.
-  plugins: [require.resolve('prettier-plugin-sort-json')],
+  plugins: [
+    require.resolve('prettier-plugin-sort-json'),
+    require.resolve('prettier-plugin-toml'),
+  ],
   semi: false,
   singleQuote: true,
   trailingComma: 'all',
@@ -29,6 +32,7 @@ module.exports = {
           fileMatch: null,
           url: null,
           versions: null,
+          // Set to "none" to prevent lexical sorting of version strings.
           '/^[^\\d+]/': 'none',
           '/^\\d+/': 'none',
         }),
@@ -52,8 +56,8 @@ module.exports = {
           externalSchema: null,
           unknownKeywords: null,
           unknownFormat: null,
-          '/^[^\\d+]/': 'lexical',
-          '/^\\d+/': 'numeric',
+          '/^[^\\d+]/': null,
+          '/^\\d+/': null,
         }),
       },
     },
@@ -82,9 +86,22 @@ module.exports = {
           if: null,
           then: null,
           else: null,
-          '/^[^\\d+]/': 'none',
-          '/^\\d+/': 'none',
         }),
+      },
+    },
+    {
+      files: 'src/test/bun-lock/bun.lock.json',
+      options: {
+        jsonRecursiveSort: false,
+        jsonSortOrder: JSON.stringify({
+          '.': 'none',
+          '*': 'none',
+          lockfileVersion: 'none',
+          workspaces: 'none',
+          '/^\\$.*/': null,
+        }),
+        bracketSameLine: true,
+        printWidth: 100000000000,
       },
     },
   ],

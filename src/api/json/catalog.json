@@ -93,34 +93,38 @@
       "name": ".aiproj.json",
       "description": "Settings for project analysis by the Application Inspector",
       "fileMatch": [".aiproj.json"],
-      "url": "https://json.schemastore.org/aiproj-1.3.json",
+      "url": "https://json.schemastore.org/aiproj-1.4.json",
       "versions": {
         "1.0": "https://json.schemastore.org/aiproj-1.0.json",
         "1.1": "https://json.schemastore.org/aiproj-1.1.json",
         "1.2": "https://json.schemastore.org/aiproj-1.2.json",
-        "1.3": "https://json.schemastore.org/aiproj-1.3.json"
+        "1.3": "https://json.schemastore.org/aiproj-1.3.json",
+        "1.4": "https://json.schemastore.org/aiproj-1.4.json"
       }
     },
     {
       "name": "ABCInventoryModuleData",
       "description": "ABCInventoryModuleData defining the structure of ABCInventoryModuleData including Principal Data, inventory, and transaction data in ABC-Plan's Inventory Management Module",
       "fileMatch": ["abc-inventory-module-data-*.json"],
-      "url": "https://json.schemastore.org/abc-inventory-module-data-2.0.0.json",
+      "url": "https://json.schemastore.org/abc-inventory-module-data-3.0.0.json",
       "versions": {
         "1.0.0": "https://json.schemastore.org/abc-inventory-module-data-1.0.0.json",
-        "2.0.0": "https://json.schemastore.org/abc-inventory-module-data-2.0.0.json"
+        "2.0.0": "https://json.schemastore.org/abc-inventory-module-data-2.0.0.json",
+        "3.0.0": "https://json.schemastore.org/abc-inventory-module-data-2.0.0.json"
       }
     },
     {
       "name": "ABCSupplyPlan",
       "description": "ABCSupplyPlan representing all the state for performing inventory optimization and expiry analysis in ABC-Plan MasterPlanner",
       "fileMatch": ["abc-supply-plan-*.json"],
-      "url": "https://json.schemastore.org/abc-supply-plan-4.0.0.json",
+      "url": "https://json.schemastore.org/abc-supply-plan-6.0.0.json",
       "versions": {
         "1.0.0": "https://json.schemastore.org/abc-supply-plan-1.0.0.json",
         "2.0.0": "https://json.schemastore.org/abc-supply-plan-2.0.0.json",
         "3.0.0": "https://json.schemastore.org/abc-supply-plan-3.0.0.json",
-        "4.0.0": "https://json.schemastore.org/abc-supply-plan-4.0.0.json"
+        "4.0.0": "https://json.schemastore.org/abc-supply-plan-4.0.0.json",
+        "5.0.0": "https://json.schemastore.org/abc-supply-plan-5.0.0.json",
+        "6.0.0": "https://json.schemastore.org/abc-supply-plan-6.0.0.json"
       }
     },
     {
@@ -153,12 +157,6 @@
         "3.1": "https://json.schemastore.org/airlock-microgateway-3.1.json",
         "3.2": "https://json.schemastore.org/airlock-microgateway-3.2.json"
       }
-    },
-    {
-      "name": "Airplane task",
-      "description": "Airplane tasks",
-      "fileMatch": ["*.task.json", "*.task.yaml", "*.task.yml"],
-      "url": "https://api.airplane.dev/v0/schemas/task.json"
     },
     {
       "name": "angular.json",
@@ -220,6 +218,12 @@
       "description": "AppVeyor CI configuration file",
       "fileMatch": ["appveyor.yml"],
       "url": "https://json.schemastore.org/appveyor.json"
+    },
+    {
+      "name": "appsettings.StormPetrel.json",
+      "description": "Scand.StormPetrel.Generator NuGet package appsettings.StormPetrel.json file",
+      "fileMatch": ["appsettings.StormPetrel.json"],
+      "url": "https://raw.githubusercontent.com/Scandltd/storm-petrel/main/generator/assets/appsettings.StormPetrel.Schema.json"
     },
     {
       "name": "architect.yml",
@@ -430,6 +434,12 @@
       "url": "https://raw.githubusercontent.com/Azure/Azure-Landing-Zones-Library/main/schemas/archetype_override.json"
     },
     {
+      "name": "Biome Formatter Config",
+      "description": "Configuration file for the Biome formatter",
+      "fileMatch": ["biome.json", "biome.jsonc"],
+      "url": "https://biomejs.dev/schemas/latest/schema.json"
+    },
+    {
       "name": "bottom configuration",
       "description": "Configuration file for bottom",
       "fileMatch": ["bottom.toml"],
@@ -498,6 +508,19 @@
         "*.codify.yaml"
       ],
       "url": "https://raw.githubusercontent.com/codifyCLI/codify-schemas/main/src/schemastore/codify-schema.json"
+    },
+    {
+      "name": "CloudCannon Configuration",
+      "description": "Configuration file for CloudCannon, the Git-based CMS that brings visual editing to your modern tech stack, freeing developers from content tasks while empowering editors to make changes",
+      "fileMatch": [
+        "cloudcannon.config.yml",
+        "cloudcannon.config.yaml",
+        "cloudcannon.config.json",
+        "*.cloudcannon.config.yml",
+        "*.cloudcannon.config.yaml",
+        "*.cloudcannon.config.json"
+      ],
+      "url": "https://github.com/cloudcannon/configuration-types/releases/latest/download/cloudcannon-config.schema.json"
     },
     {
       "name": "latexindent configuration",
@@ -729,6 +752,11 @@
       "url": "https://json.schemastore.org/bowerrc.json"
     },
     {
+      "name": "BOSH Deploy Config",
+      "description": "Deploy config for BOSH CLI",
+      "url": "https://json.schemastore.org/bosh-deploy-config.json"
+    },
+    {
       "name": "Boyka Framework",
       "description": "Boyka Framework config file",
       "fileMatch": ["boyka-config.json"],
@@ -812,6 +840,12 @@
       }
     },
     {
+      "name": "bun.lock",
+      "description": "bun.lock file",
+      "fileMatch": ["bun.lock"],
+      "url": "https://json.schemastore.org/bun-lock.json"
+    },
+    {
       "name": "bundleconfig.json",
       "description": "bundleconfig.json files",
       "fileMatch": ["bundleconfig.json"],
@@ -848,12 +882,13 @@
       "name": "BX CI",
       "description": "CI configuration for Amdocs Bill Experience projects",
       "fileMatch": ["**/bxci.yaml", "**/bxci.yml"],
-      "url": "https://json.schemastore.org/bxci.schema-2.x.json",
+      "url": "https://json.schemastore.org/bxci.schema-3.x.json",
       "versions": {
         "1.0": "https://json.schemastore.org/bxci.schema-1.0.json",
         "1.0.1": "https://json.schemastore.org/bxci.schema-1.0.1.json",
         "2.0.0": "https://json.schemastore.org/bxci.schema-2.0.0.json",
-        "2.x": "https://json.schemastore.org/bxci.schema-2.x.json"
+        "2.x": "https://json.schemastore.org/bxci.schema-2.x.json",
+        "3.x": "https://json.schemastore.org/bxci.schema-2.x.json"
       }
     },
     {
@@ -911,6 +946,19 @@
       }
     },
     {
+      "name": "Cannon TOML",
+      "description": "Deployment configuration for Cannon, a DevOps tool for Ethereum",
+      "fileMatch": [
+        "cannonfile.json",
+        "*.cannonfile.json",
+        "cannonfile.yaml",
+        "*.cannonfile.yaml",
+        "cannonfile.toml",
+        "*.cannonfile.toml"
+      ],
+      "url": "https://raw.githubusercontent.com/usecannon/cannon/main/packages/lsp/src/schema.json"
+    },
+    {
       "name": "Carafe",
       "description": "Carafe compatible JavaScript Bundles",
       "url": "https://carafe.fm/schema/draft-02/bundle.schema.json",
@@ -941,7 +989,7 @@
       "name": "Chromia Model",
       "description": "Chromia Model Config File",
       "fileMatch": ["chromia.yml", "chromia.yaml"],
-      "url": "https://gitlab.com/chromaway/core-tools/chromia-cli/-/raw/dev/chromia-build-tools/src/main/resources/chromia-model-schema.json"
+      "url": "https://gitlab.com/chromaway/core-tools/chromia-cli-tools/-/raw/dev/chromia-build-tools/src/main/resources/chromia-model-schema.json"
     },
     {
       "name": "cibuildwheel",
@@ -1012,7 +1060,7 @@
       "name": "Clawject config",
       "description": "Clawject configuration file",
       "fileMatch": [".clawjectrc", ".clawjectrc.json"],
-      "url": "https://raw.githubusercontent.com/clawject/clawject/main/packages/clawject/src/compile-time/config/schema.json"
+      "url": "https://raw.githubusercontent.com/clawject/clawject/main/packages/core/src/config/schema.json"
     },
     {
       "name": "CVE Record Format",
@@ -1025,6 +1073,21 @@
       "description": "A Cycle.io stack file for environments as code",
       "fileMatch": ["cycle.json", "cycle.yml", "cycle.yaml"],
       "url": "https://raw.githubusercontent.com/cycleplatform/api-spec/main/stackspec/stackspec.json"
+    },
+    {
+      "name": "CycloneDX",
+      "description": "CycloneDX Bill of Materials (BOM) file",
+      "fileMatch": ["bom.json", "*.cdx.json"],
+      "url": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.6.schema.json",
+      "versions": {
+        "1.2": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.2.schema.json",
+        "1.2-strict": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.2-strict.schema.json",
+        "1.3": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.3.schema.json",
+        "1.3-strict": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.3-strict.schema.json",
+        "1.4": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.4.schema.json",
+        "1.5": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.5.schema.json",
+        "1.6": "https://raw.githubusercontent.com/CycloneDX/specification/refs/heads/master/schema/bom-1.6.schema.json"
+      }
     },
     {
       "name": "DataYoga Connections",
@@ -1079,6 +1142,15 @@
       "description": "Configuration file for Dependency cruiser",
       "fileMatch": ["dependency-cruiser.config.json"],
       "url": "https://raw.githubusercontent.com/sverweij/dependency-cruiser/main/src/schema/configuration.schema.json"
+    },
+    {
+      "name": "DeployStack Configuration",
+      "description": "Configuration for DeployStack applications, supporting app customization and deployment settings",
+      "fileMatch": [
+        "**/.deploystack/config.yml",
+        "**/.deploystack/config.yaml"
+      ],
+      "url": "https://cdnx.deploystack.io/schema/config.yml.json"
     },
     {
       "name": "Deta Spacefile",
@@ -1729,7 +1801,7 @@
     {
       "name": "Deployer Recipe",
       "description": "A Deployer yaml recipes",
-      "fileMatch": ["deploy.yaml", "deploy.yml"],
+      "fileMatch": [],
       "url": "https://raw.githubusercontent.com/deployphp/deployer/master/src/schema.json"
     },
     {
@@ -1777,6 +1849,19 @@
       "description": "A DocFx configuration files",
       "fileMatch": ["docfx.json"],
       "url": "https://json.schemastore.org/docfx.json"
+    },
+    {
+      "name": "Dofigen",
+      "description": "Dofigen configuration file. Documentation: https://github.com/lenra-io/dofigen",
+      "fileMatch": [
+        "dofigen.yaml",
+        "dofigen.json",
+        "dofigen.yml",
+        "*.dofigen.yaml",
+        "*.dofigen.json",
+        "*.dofigen.yml"
+      ],
+      "url": "https://json.schemastore.org/dofigen.json"
     },
     {
       "name": "Dolittle Artifacts",
@@ -1975,15 +2060,6 @@
       "url": "https://json.schemastore.org/epr-manifest.json"
     },
     {
-      "name": "Error pages",
-      "description": "Error-Pages configuration file",
-      "fileMatch": ["error-pages*.yml", "error-pages*.yaml"],
-      "url": "https://cdn.jsdelivr.net/gh/tarampampam/error-pages@latest/schemas/config/1.0.schema.json",
-      "versions": {
-        "1.0": "https://cdn.jsdelivr.net/gh/tarampampam/error-pages@latest/schemas/config/1.0.schema.json"
-      }
-    },
-    {
       "name": "electron-builder configuration file",
       "description": "electron-build configuration file",
       "fileMatch": ["electron-builder.json"],
@@ -2053,7 +2129,7 @@
       "name": "Expo SDK",
       "description": "Expo SDK app manifest",
       "fileMatch": ["app.json"],
-      "url": "https://json.schemastore.org/expo-46.0.0.json",
+      "url": "https://json.schemastore.org/expo-52.0.0.json",
       "versions": {
         "37.0.0": "https://json.schemastore.org/expo-37.0.0.json",
         "38.0.0": "https://json.schemastore.org/expo-38.0.0.json",
@@ -2061,7 +2137,9 @@
         "40.0.0": "https://json.schemastore.org/expo-40.0.0.json",
         "41.0.0": "https://json.schemastore.org/expo-41.0.0.json",
         "42.0.0": "https://json.schemastore.org/expo-42.0.0.json",
-        "46.0.0": "https://json.schemastore.org/expo-46.0.0.json"
+        "46.0.0": "https://json.schemastore.org/expo-46.0.0.json",
+        "50.0.0": "https://json.schemastore.org/expo-50.0.0.json",
+        "52.0.0": "https://json.schemastore.org/expo-52.0.0.json"
       }
     },
     {
@@ -2069,6 +2147,12 @@
       "description": "The EAS config (eas.json) validation and documentation",
       "fileMatch": ["eas.json"],
       "url": "https://raw.githubusercontent.com/expo/eas-cli/main/packages/eas-json/schema/eas.schema.json"
+    },
+    {
+      "name": "EasyVCR .NET",
+      "description": "EasyVCR .NET recording file",
+      "fileMatch": ["*.easyvcr", "**/cassettes/*.json"],
+      "url": "https://json.schemastore.org/easyvcr-net.json"
     },
     {
       "name": "ezd task runner",
@@ -2086,12 +2170,6 @@
         ".eslintrc.yaml"
       ],
       "url": "https://json.schemastore.org/eslintrc.json"
-    },
-    {
-      "name": "Facets - FSDL - Application",
-      "description": "Facets Stack Definition Language for Applications",
-      "fileMatch": ["**/application/instances/*.json"],
-      "url": "https://www.facets.cloud/assets/fsdl/application.schema.json"
     },
     {
       "name": "fabric.mod.json",
@@ -2137,6 +2215,12 @@
         "*_FiQuS.yml"
       ],
       "url": "https://gitlab.cern.ch/steam/fiqus/-/raw/master/docs/schema.json"
+    },
+    {
+      "name": "FlexGet Config",
+      "description": "FlexGet config file",
+      "fileMatch": ["**/.flexget/config.yml", "**/flexget/config.yml"],
+      "url": "https://github.com/Flexget/Flexget/releases/latest/download/flexget-config.schema.json"
     },
     {
       "name": "first-timers-bot",
@@ -2201,6 +2285,21 @@
         "1.7": "https://raw.githubusercontent.com/knative/func/release-1.7/schema/func_yaml-schema.json",
         "1.8": "https://raw.githubusercontent.com/knative/func/release-1.8/schema/func_yaml-schema.json"
       }
+    },
+    {
+      "name": "KSail",
+      "description": "Configuration for KSail",
+      "fileMatch": [
+        "ksail-cluster.yaml",
+        "ksail-cluster.yml",
+        "ksail-config.yaml",
+        "ksail-config.yml",
+        "ksail.yaml",
+        "ksail.yml",
+        "*.ksail.yaml",
+        "*.ksail.yml"
+      ],
+      "url": "https://github.com/devantler/ksail/blob/main/schemas/ksail-cluster-schema.json"
     },
     {
       "name": "function.json",
@@ -2314,19 +2413,11 @@
       "description": "YAML GitHub Funding",
       "fileMatch": [
         "**/.github/FUNDING.yml",
+        "**/.github/FUNDING.yaml",
         "**/.github/funding.yml",
         "**/.github/funding.yaml"
       ],
       "url": "https://json.schemastore.org/github-funding.json"
-    },
-    {
-      "name": "GitHub Issue Template forms",
-      "description": "YAML GitHub issue forms",
-      "fileMatch": [
-        "**/.github/ISSUE_TEMPLATE/**.yml",
-        "**/.github/ISSUE_TEMPLATE/**.yaml"
-      ],
-      "url": "https://json.schemastore.org/github-issue-forms.json"
     },
     {
       "name": "GitHub Issue Template configuration",
@@ -2336,6 +2427,15 @@
         "**/.github/ISSUE_TEMPLATE/config.yaml"
       ],
       "url": "https://json.schemastore.org/github-issue-config.json"
+    },
+    {
+      "name": "GitHub Issue Template forms",
+      "description": "YAML GitHub issue forms",
+      "fileMatch": [
+        "**/.github/ISSUE_TEMPLATE/**.yml",
+        "**/.github/ISSUE_TEMPLATE/**.yaml"
+      ],
+      "url": "https://json.schemastore.org/github-issue-forms.json"
     },
     {
       "name": "GitHub Workflow",
@@ -2545,7 +2645,7 @@
       "name": "tree-sitter grammar.json",
       "description": "tree-sitter grammar.json",
       "fileMatch": ["grammar.json"],
-      "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter/master/cli/src/generate/grammar-schema.json"
+      "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter/master/docs/assets/schemas/config.schema.json"
     },
     {
       "name": "GraphQL Mesh",
@@ -2691,7 +2791,14 @@
       "name": "IBM Zapp document",
       "description": "IBM Z APPlication configuration file for IBM zDevOps development tools such as Z Open Editor",
       "fileMatch": ["zapp.yaml", "zapp.json"],
-      "url": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.2.1.json"
+      "url": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.3.0.json",
+      "versions": {
+        "1.0.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.0.0.json",
+        "1.1.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.1.0.json",
+        "1.2.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.2.0.json",
+        "1.2.1": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.2.1.json",
+        "1.3.0": "https://raw.githubusercontent.com/IBM/zopeneditor-about/main/zapp/zapp-schema-1.3.0.json"
+      }
     },
     {
       "name": "IBM zCodeFormatSettings",
@@ -2772,7 +2879,7 @@
       "name": "ioBroker JSON UI",
       "description": "ioBroker JSON-based admin user interfaces - config, custom and tabs",
       "fileMatch": ["jsonConfig.json", "jsonCustom.json", "jsonTab.json"],
-      "url": "https://raw.githubusercontent.com/ioBroker/adapter-react-v5/main/schemas/jsonConfig.json"
+      "url": "https://raw.githubusercontent.com/ioBroker/ioBroker.admin/master/packages/jsonConfig/schemas/jsonConfig.json"
     },
     {
       "name": "ioBroker Package manifest",
@@ -2803,6 +2910,12 @@
       "description": "Jenkins X Requirements YAML configuration file",
       "fileMatch": ["jx-requirements.yml"],
       "url": "https://jenkins-x.io/schemas/jx-requirements.json"
+    },
+    {
+      "name": "Jest",
+      "description": "A JavaScript Testing Framework",
+      "fileMatch": ["jest.config.json"],
+      "url": "https://json.schemastore.org/jest.json"
     },
     {
       "name": "JDownloader2 crawler single-rules",
@@ -2843,8 +2956,10 @@
       "name": "JReleaser",
       "description": "JReleaser config file",
       "fileMatch": ["jreleaser.yml", "jreleaser.json"],
-      "url": "https://json.schemastore.org/jreleaser-1.14.0.json",
+      "url": "https://json.schemastore.org/jreleaser-1.16.0.json",
       "versions": {
+        "1.16.0": "https://json.schemastore.org/jreleaser-1.16.0.json",
+        "1.15.0": "https://json.schemastore.org/jreleaser-1.15.0.json",
         "1.14.0": "https://json.schemastore.org/jreleaser-1.14.0.json",
         "1.13.1": "https://json.schemastore.org/jreleaser-1.13.1.json",
         "1.13.0": "https://json.schemastore.org/jreleaser-1.13.0.json",
@@ -2950,10 +3065,46 @@
       "url": "https://raw.githubusercontent.com/siemens/kas/master/kas/schema-kas.json"
     },
     {
-      "name": "k9s plugin.yml",
-      "description": "k9s CLI plugin.yml file. Documentation: https://k9scli.io/topics/plugins",
-      "fileMatch": ["**/k9s/plugin.yml"],
-      "url": "https://raw.githubusercontent.com/derailed/k9s/master/plugins/schema.json"
+      "name": "k9s aliases.yaml",
+      "description": "k9s CLI aliases.yaml file. Documentation: https://k9scli.io/topics/aliases",
+      "fileMatch": ["**/k9s/aliases.yaml"],
+      "url": "https://raw.githubusercontent.com/derailed/k9s/master/internal/config/json/schemas/aliases.json"
+    },
+    {
+      "name": "k9s config.yaml",
+      "description": "k9s CLI config.yaml file. Documentation: https://k9scli.io/topics/config",
+      "fileMatch": ["**/k9s/config.yaml"],
+      "url": "https://raw.githubusercontent.com/derailed/k9s/master/internal/config/json/schemas/k9s.json"
+    },
+    {
+      "name": "k9s cluster-config.yaml",
+      "description": "k9s CLI cluster-config.yaml file. Documentation: https://k9scli.io/topics/config",
+      "fileMatch": ["**/k9s/clusters/*/*/config.yaml"],
+      "url": "https://raw.githubusercontent.com/derailed/k9s/master/internal/config/json/schemas/context.json"
+    },
+    {
+      "name": "k9s hotkeys.yaml",
+      "description": "k9s CLI hotkeys.yaml file. Documentation: https://k9scli.io/topics/hotkeys",
+      "fileMatch": ["**/k9s/hotkeys.yaml"],
+      "url": "https://raw.githubusercontent.com/derailed/k9s/master/internal/config/json/schemas/hotkeys.json"
+    },
+    {
+      "name": "k9s plugins.yaml",
+      "description": "k9s CLI plugins.yaml file. Documentation: https://k9scli.io/topics/plugins",
+      "fileMatch": ["**/k9s/plugins.yaml"],
+      "url": "https://raw.githubusercontent.com/derailed/k9s/master/internal/config/json/schemas/plugins.json"
+    },
+    {
+      "name": "k9s skin.yaml",
+      "description": "k9s CLI skin.yaml file. Documentation: https://k9scli.io/topics/skins",
+      "fileMatch": ["**/k9s/skins/*.yaml"],
+      "url": "https://raw.githubusercontent.com/derailed/k9s/master/internal/config/json/schemas/skin.json"
+    },
+    {
+      "name": "k9s views.yaml",
+      "description": "k9s CLI views.yaml file. Documentation: https://k9scli.io/topics/columns",
+      "fileMatch": ["**/k9s/views.yaml"],
+      "url": "https://raw.githubusercontent.com/derailed/k9s/master/internal/config/json/schemas/views.json"
     },
     {
       "name": "KIMMDY config file",
@@ -2965,13 +3116,26 @@
       "name": "Kestra flow file",
       "description": "Kestra Flow definition file, see: kestra.io/docs/workflow-components/flow#flow-sample",
       "fileMatch": ["**/flows/*.yml"],
-      "url": "https://json.schemastore.org/kestra-0.18.3.json",
+      "url": "https://json.schemastore.org/kestra-0.19.0.json",
       "versions": {
         "0.18.0": "https://json.schemastore.org/kestra-0.18.0.json",
         "0.18.1": "https://json.schemastore.org/kestra-0.18.1.json",
         "0.18.2": "https://json.schemastore.org/kestra-0.18.2.json",
-        "0.18.3": "https://json.schemastore.org/kestra-0.18.3.json"
+        "0.18.3": "https://json.schemastore.org/kestra-0.18.3.json",
+        "0.19.0": "https://json.schemastore.org/kestra-0.19.0.json"
       }
+    },
+    {
+      "name": "Kometa config file",
+      "description": "Kometa (formerly Plex Meta Manager or PMM) configuration file for stable versions",
+      "fileMatch": [],
+      "url": "https://raw.githubusercontent.com/kometa-team/kometa/master/json-schema/config-schema.json"
+    },
+    {
+      "name": "Kometa (nightly) config file",
+      "description": "Kometa (formerly Plex Meta Manager or PMM) configuration file for nightly versions",
+      "fileMatch": [],
+      "url": "https://raw.githubusercontent.com/kometa-team/kometa/nightly/json-schema/config-schema.json"
     },
     {
       "name": "KrakenD",
@@ -3055,7 +3219,7 @@
       "fileMatch": [
         "{.lefthook,lefthook,lefthook-local,.lefthook-local}.{yml,yaml,toml,json}"
       ],
-      "url": "https://json.schemastore.org/lefthook.json"
+      "url": "https://raw.githubusercontent.com/evilmartians/lefthook/master/schema.json"
     },
     {
       "name": "lego.json",
@@ -3151,6 +3315,12 @@
       "url": "https://json.schemastore.org/lsdlschema.json"
     },
     {
+      "name": ".luaurc",
+      "description": "Luau language configuration file",
+      "fileMatch": [".luaurc"],
+      "url": "https://json.schemastore.org/luaurc.json"
+    },
+    {
       "name": "MapEHR Mapping",
       "description": "Mapping for MapEHR.com",
       "fileMatch": [".map.yml", ".map.yaml", ".map.json"],
@@ -3190,16 +3360,16 @@
       "url": "https://raw.githubusercontent.com/meltano/meltano/main/src/meltano/schemas/meltano.schema.json"
     },
     {
-      "name": "Meltano plugin discovery definition",
-      "description": "Meltano plugin discovery definition file",
-      "fileMatch": ["*discovery.yml"],
-      "url": "https://raw.githubusercontent.com/meltano/meltano/main/src/meltano/schemas/discovery.schema.json"
-    },
-    {
       "name": "Metadata for a Bazel module",
       "description": "Metadata file for a Bazel module",
       "fileMatch": ["**/modules/*/metadata.json"],
       "url": "https://raw.githubusercontent.com/bazelbuild/bazel-central-registry/main/metadata.schema.json"
+    },
+    {
+      "name": "Metatype Configuration",
+      "description": "Metatype configuration file",
+      "fileMatch": ["metatype.yml", "metatype.yaml"],
+      "url": "https://raw.githubusercontent.com/metatypedev/metatype/main/tools/schema/metatype.json"
     },
     {
       "name": "MetricsHub Configuration",
@@ -3354,6 +3524,12 @@
         "1.0": "https://json.schemastore.org/mkdocs-1.0.json",
         "1.6": "https://json.schemastore.org/mkdocs-1.6.json"
       }
+    },
+    {
+      "name": "mrdocs.yml",
+      "description": "MrDocs configuration file",
+      "fileMatch": ["mrdocs.yml"],
+      "url": "https://raw.githubusercontent.com/cppalliance/mrdocs/refs/heads/master/docs/mrdocs.schema.json"
     },
     {
       "name": "MLOS Configs",
@@ -3539,10 +3715,25 @@
       }
     },
     {
+      "name": "NueJS configuration file",
+      "description": "NueJS site configuration file",
+      "fileMatch": [],
+      "url": "https://json.schemastore.org/nuejs-site.json"
+    },
+    {
       "name": "nswag.json",
       "description": "nswag configuration",
       "fileMatch": ["nswag.json"],
       "url": "https://json.schemastore.org/nswag.json"
+    },
+    {
+      "name": "Nullstone config",
+      "description": "Nullstone config.yml file",
+      "fileMatch": ["**/.nullstone/*.yml", "**/.nullstone/*.yaml"],
+      "url": "https://raw.githubusercontent.com/nullstone-io/iac/master/.schema/config.0.1.json",
+      "versions": {
+        "0.1": "https://raw.githubusercontent.com/nullstone-io/iac/master/.schema/config.0.1.json"
+      }
     },
     {
       "name": "ntangle",
@@ -3573,6 +3764,24 @@
       "url": "https://json.schemastore.org/ocelot.json"
     },
     {
+      "name": "October CMS columns",
+      "description": "October CMS columns files",
+      "fileMatch": ["columns.yaml", "*_columns.yaml"],
+      "url": "https://raw.githubusercontent.com/inetis-ch/october-schemas/master/columns.json"
+    },
+    {
+      "name": "October CMS fields",
+      "description": "October CMS fields files",
+      "fileMatch": ["fields.yaml", "*_fields.yaml"],
+      "url": "https://raw.githubusercontent.com/inetis-ch/october-schemas/master/fields.json"
+    },
+    {
+      "name": "Okteto",
+      "description": "The Okteto Manifest",
+      "fileMatch": ["okteto.yml", "okteto.yaml", "okteto.json"],
+      "url": "https://raw.githubusercontent.com/okteto/okteto/refs/heads/master/schema.json"
+    },
+    {
       "name": "omnisharp.json",
       "description": "Omnisharp Configuration file",
       "fileMatch": ["omnisharp.json"],
@@ -3582,10 +3791,10 @@
       "name": "openapi.json",
       "description": "A Open API documentation files",
       "fileMatch": ["openapi.json", "openapi.yml", "openapi.yaml"],
-      "url": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.1/schema.json",
+      "url": "https://spec.openapis.org/oas/3.1/schema/2022-10-07",
       "versions": {
-        "3.0": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.0/schema.json",
-        "3.1": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/schemas/v3.1/schema.json"
+        "3.0": "https://spec.openapis.org/oas/3.0/schema/2021-09-28",
+        "3.1": "https://spec.openapis.org/oas/3.1/schema/2022-10-07"
       }
     },
     {
@@ -3643,11 +3852,12 @@
       "url": "https://raw.githubusercontent.com/openrewrite/rewrite/main/rewrite-core/openrewrite.json"
     },
     {
-      "name": "Open Data Contract Standard (ODCS))",
+      "name": "Open Data Contract Standard (ODCS)",
       "description": "Open Data Contract Standard contract file",
       "fileMatch": ["*.odcs.yaml", "*.odcs.yml"],
       "url": "https://raw.githubusercontent.com/bitol-io/open-data-contract-standard/main/schema/odcs-json-schema-latest.json",
       "versions": {
+        "v3.0.0": "https://github.com/bitol-io/open-data-contract-standard/blob/main/schema/odcs-json-schema-v3.0.0.json",
         "v2.2.2": "https://github.com/bitol-io/open-data-contract-standard/blob/main/schema/odcs-json-schema-v2.2.2.json"
       }
     },
@@ -3684,6 +3894,135 @@
       "description": "Ory Kratos configuration file",
       "fileMatch": ["kratos.json", "kratos.yml", "kratos.yaml", "kratos.toml"],
       "url": "https://raw.githubusercontent.com/ory/kratos/master/.schema/version.schema.json"
+    },
+    {
+      "name": "OSCAL Assessment Plan (AP)",
+      "description": "NIST Open Security Controls Assessment Language (OSCAL) Assessment Plan. (https://pages.nist.gov/OSCAL-Reference)",
+      "fileMatch": ["oscal*assessment-plan.json", "oscal*assessment_plan.json"],
+      "url": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_assessment-plan_schema.json",
+      "versions": {
+        "1.1.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_assessment-plan_schema.json",
+        "1.1.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_assessment-plan_schema.json",
+        "1.1.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.0/oscal_assessment-plan_schema.json",
+        "1.0.6": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.6/oscal_assessment-plan_schema.json",
+        "1.0.5": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.5/oscal_assessment-plan_schema.json",
+        "1.0.4": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.4/oscal_assessment-plan_schema.json",
+        "1.0.3": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.3/oscal_assessment-plan_schema.json",
+        "1.0.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.2/oscal_assessment-plan_schema.json",
+        "1.0.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_assessment-plan_schema.json",
+        "1.0.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_assessment-plan_schema.json"
+      }
+    },
+    {
+      "name": "OSCAL Assessment Results (AR)",
+      "description": "NIST Open Security Controls Assessment Language (OSCAL) Assessment Results. (https://pages.nist.gov/OSCAL-Reference)",
+      "fileMatch": [
+        "oscal*assessment-results.json",
+        "oscal*assessment_results.json"
+      ],
+      "url": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_assessment-results_schema.json",
+      "versions": {
+        "1.1.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_assessment-results_schema.json",
+        "1.1.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_assessment-results_schema.json",
+        "1.1.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.0/oscal_assessment-results_schema.json",
+        "1.0.6": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.6/oscal_assessment-results_schema.json",
+        "1.0.5": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.5/oscal_assessment-results_schema.json",
+        "1.0.4": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.4/oscal_assessment-results_schema.json",
+        "1.0.3": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.3/oscal_assessment-results_schema.json",
+        "1.0.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.2/oscal_assessment-results_schema.json",
+        "1.0.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_assessment-results_schema.json",
+        "1.0.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_assessment-results_schema.json"
+      }
+    },
+    {
+      "name": "OSCAL Catalog",
+      "description": "NIST Open Security Controls Assessment Language (OSCAL) Catalog. (https://pages.nist.gov/OSCAL-Reference)",
+      "fileMatch": ["oscal*catalog.json"],
+      "url": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_catalog_schema.json",
+      "versions": {
+        "1.1.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_catalog_schema.json",
+        "1.1.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_catalog_schema.json",
+        "1.1.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.0/oscal_catalog_schema.json",
+        "1.0.6": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.6/oscal_catalog_schema.json",
+        "1.0.5": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.5/oscal_catalog_schema.json",
+        "1.0.4": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.4/oscal_catalog_schema.json",
+        "1.0.3": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.3/oscal_catalog_schema.json",
+        "1.0.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.2/oscal_catalog_schema.json",
+        "1.0.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_catalog_schema.json",
+        "1.0.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_catalog_schema.json"
+      }
+    },
+    {
+      "name": "OSCAL Component Definition (CDef)",
+      "description": "NIST Open Security Controls Assessment Language (OSCAL) Component Definition. (https://pages.nist.gov/OSCAL-Reference)",
+      "fileMatch": ["oscal*component.json", "oscal*cdef.json"],
+      "url": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_component_schema.json",
+      "versions": {
+        "1.1.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_component_schema.json",
+        "1.1.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_component_schema.json",
+        "1.1.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.0/oscal_component_schema.json",
+        "1.0.6": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.6/oscal_component_schema.json",
+        "1.0.5": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.5/oscal_component_schema.json",
+        "1.0.4": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.4/oscal_component_schema.json",
+        "1.0.3": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.3/oscal_component_schema.json",
+        "1.0.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.2/oscal_component_schema.json",
+        "1.0.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_component_schema.json",
+        "1.0.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_component_schema.json"
+      }
+    },
+    {
+      "name": "OSCAL Plan of Action and Milestones (POA&M)",
+      "description": "NIST Open Security Controls Assessment Language (OSCAL) Plan of Action and Milestones. (https://pages.nist.gov/OSCAL-Reference)",
+      "fileMatch": ["oscal*poam.json"],
+      "url": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_poam_schema.json",
+      "versions": {
+        "1.1.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_poam_schema.json",
+        "1.1.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_poam_schema.json",
+        "1.1.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.0/oscal_poam_schema.json",
+        "1.0.6": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.6/oscal_poam_schema.json",
+        "1.0.5": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.5/oscal_poam_schema.json",
+        "1.0.4": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.4/oscal_poam_schema.json",
+        "1.0.3": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.3/oscal_poam_schema.json",
+        "1.0.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.2/oscal_poam_schema.json",
+        "1.0.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_poam_schema.json",
+        "1.0.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_poam_schema.json"
+      }
+    },
+    {
+      "name": "OSCAL Profile",
+      "description": "NIST Open Security Controls Assessment Language (OSCAL) Profile. (https://pages.nist.gov/OSCAL-Reference)",
+      "fileMatch": ["oscal*profile.json"],
+      "url": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_profile_schema.json",
+      "versions": {
+        "1.1.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_profile_schema.json",
+        "1.1.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_profile_schema.json",
+        "1.1.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.0/oscal_profile_schema.json",
+        "1.0.6": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.6/oscal_profile_schema.json",
+        "1.0.5": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.5/oscal_profile_schema.json",
+        "1.0.4": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.4/oscal_profile_schema.json",
+        "1.0.3": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.3/oscal_profile_schema.json",
+        "1.0.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.2/oscal_profile_schema.json",
+        "1.0.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_profile_schema.json",
+        "1.0.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_profile_schema.json"
+      }
+    },
+    {
+      "name": "OSCAL System Security Plan (SSP)",
+      "description": "NIST Open Security Controls Assessment Language (OSCAL) System Security Plan. (https://pages.nist.gov/OSCAL-Reference)",
+      "fileMatch": ["oscal*ssp.json"],
+      "url": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_ssp_schema.json",
+      "versions": {
+        "1.1.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.2/oscal_ssp_schema.json",
+        "1.1.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_ssp_schema.json",
+        "1.1.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.1.0/oscal_ssp_schema.json",
+        "1.0.6": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.6/oscal_ssp_schema.json",
+        "1.0.5": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.5/oscal_ssp_schema.json",
+        "1.0.4": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.4/oscal_ssp_schema.json",
+        "1.0.3": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.3/oscal_ssp_schema.json",
+        "1.0.2": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.2/oscal_ssp_schema.json",
+        "1.0.1": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.1/oscal_ssp_schema.json",
+        "1.0.0": "https://github.com/usnistgov/OSCAL/releases/download/v1.0.0/oscal_ssp_schema.json"
+      }
     },
     {
       "name": "OSS Review Toolkit configuration",
@@ -3819,6 +4158,18 @@
       }
     },
     {
+      "name": "Plex Prerolls",
+      "description": "Plex Prerolls configuration",
+      "fileMatch": [],
+      "url": "https://raw.githubusercontent.com/nwithan8/plex-prerolls/main/.schema/config.schema.json"
+    },
+    {
+      "name": "podbard.yaml",
+      "description": "Configuration file for Podbard - a podcast site generator",
+      "fileMatch": ["podbard.yaml"],
+      "url": "https://raw.githubusercontent.com/Songmu/podbard/main/schema.yaml"
+    },
+    {
       "name": "portman.json",
       "description": "Portman's configuration file",
       "fileMatch": ["portman-config.json", "portman.json"],
@@ -3877,6 +4228,12 @@
       "url": "https://json.schemastore.org/phraseapp.json"
     },
     {
+      "name": "prefect.toml",
+      "description": "Prefect configuration file",
+      "fileMatch": ["prefect.toml"],
+      "url": "https://raw.githubusercontent.com/PrefectHQ/prefect/refs/heads/main/schemas/settings.schema.json"
+    },
+    {
       "name": "prettierrc.json",
       "description": ".prettierrc configuration file",
       "fileMatch": [
@@ -3902,7 +4259,7 @@
       "name": "Problem package generators",
       "description": "Generators for programming tasks in the Kattis/CLICS problem package format",
       "fileMatch": ["generators.yml", "generators.yaml"],
-      "url": "https://json.schemastore.org/problem_package_generators.json"
+      "url": "https://raw.githubusercontent.com/RagnarGrootKoerkamp/BAPCtools/refs/heads/master/support/schemas/generators_yaml_schema.json"
     },
     {
       "name": "project.json",
@@ -4019,6 +4376,21 @@
       "description": "Pyrseas database versioning for Postgres databases, v0.8",
       "fileMatch": ["pyrseas-0.8.json"],
       "url": "https://json.schemastore.org/pyrseas-0.8.json"
+    },
+    {
+      "name": "RadioHound",
+      "description": "RadioHound data format for spectrum monitoring",
+      "fileMatch": ["*.rh.json"],
+      "url": "https://json.schemastore.org/radiohound-v0.json",
+      "versions": {
+        "v0": "https://json.schemastore.org/radiohound-v0.json"
+      }
+    },
+    {
+      "name": "PyGTA Config",
+      "description": "Configuration file used by pyglotaran and pyglotaran-extras",
+      "fileMatch": ["pygta_config.yaml", "pygta_config.yml"],
+      "url": "https://pyglotaran-extras.readthedocs.io/en/latest/_static/pygta_config.schema.json"
     },
     {
       "name": "Rancher Fleet",
@@ -4236,6 +4608,12 @@
       "url": "https://raw.githubusercontent.com/sinaatalay/rendercv/main/schema.json"
     },
     {
+      "name": "renv.lock",
+      "description": "Lockfile for recording R project dependencies with renv package",
+      "fileMatch": ["renv.lock"],
+      "url": "https://raw.githubusercontent.com/rstudio/renv/refs/heads/main/inst/schema/draft-07.renv.lock.schema.json"
+    },
+    {
       "name": "RoadRunner",
       "description": "Spiral Roadrunner config file",
       "fileMatch": [".rr*.yml", ".rr*.yaml"],
@@ -4447,7 +4825,33 @@
       "versions": {
         "v1.72.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.72.0/rule_schema_v1.yaml",
         "v1.73.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.73.0/rule_schema_v1.yaml",
-        "v1.74.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.74.0/rule_schema_v1.yaml"
+        "v1.74.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.74.0/rule_schema_v1.yaml",
+        "v1.75.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.75.0/rule_schema_v1.yaml",
+        "v1.76.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.76.0/rule_schema_v1.yaml",
+        "v1.77.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.77.0/rule_schema_v1.yaml",
+        "v1.78.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.78.0/rule_schema_v1.yaml",
+        "v1.79.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.79.0/rule_schema_v1.yaml",
+        "v1.80.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.80.0/rule_schema_v1.yaml",
+        "v1.81.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.81.0/rule_schema_v1.yaml",
+        "v1.82.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.82.0/rule_schema_v1.yaml",
+        "v1.83.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.83.0/rule_schema_v1.yaml",
+        "v1.84.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.84.0/rule_schema_v1.yaml",
+        "v1.85.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.85.0/rule_schema_v1.yaml",
+        "v1.86.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.86.0/rule_schema_v1.yaml",
+        "v1.87.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.87.0/rule_schema_v1.yaml",
+        "v1.88.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.88.0/rule_schema_v1.yaml",
+        "v1.89.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.89.0/rule_schema_v1.yaml",
+        "v1.90.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.90.0/rule_schema_v1.yaml",
+        "v1.91.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.91.0/rule_schema_v1.yaml",
+        "v1.92.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.92.0/rule_schema_v1.yaml",
+        "v1.93.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.93.0/rule_schema_v1.yaml",
+        "v1.94.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.94.0/rule_schema_v1.yaml",
+        "v1.95.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.95.0/rule_schema_v1.yaml",
+        "v1.96.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.96.0/rule_schema_v1.yaml",
+        "v1.97.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.97.0/rule_schema_v1.yaml",
+        "v1.98.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.98.0/rule_schema_v1.yaml",
+        "v1.99.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.99.0/rule_schema_v1.yaml",
+        "v1.100.0": "https://raw.githubusercontent.com/returntocorp/semgrep-interfaces/v1.100.0/rule_schema_v1.yaml"
       }
     },
     {
@@ -4480,10 +4884,10 @@
       "url": "https://raw.githubusercontent.com/hardisgroupcom/sfdx-hardis/main/config/sfdx-hardis.jsonschema.json"
     },
     {
-      "name": "Sigma",
-      "description": "The Sigma detection format. Documentation: https://github.com/SigmaHQ/sigma-specification and https://github.com/SigmaHQ/sigma",
+      "name": "Sigma Detection Rule",
+      "description": "The Sigma detection rule format. Documentation: https://github.com/SigmaHQ/sigma-specification/blob/main/specification/sigma-rules-specification.md and https://github.com/SigmaHQ/sigma",
       "fileMatch": ["**/sigma/**/*.yml"],
-      "url": "https://raw.githubusercontent.com/SigmaHQ/sigma-specification/main/sigma-schema.json"
+      "url": "https://raw.githubusercontent.com/SigmaHQ/sigma-specification/main/json-schema/sigma-detection-rule-schema.json"
     },
     {
       "name": "Sigrid scope configuration file",
@@ -4530,7 +4934,7 @@
       "name": "skyuxconfig.json",
       "description": "SKY UX CLI configuration file",
       "fileMatch": ["skyuxconfig.json", "skyuxconfig.*.json"],
-      "url": "https://raw.githubusercontent.com/blackbaud/skyux-config/master/skyuxconfig-schema.json"
+      "url": "https://raw.githubusercontent.com/blackbaud/skyux-config/4.x.x/skyuxconfig-schema.json"
     },
     {
       "name": "snapcraft",
@@ -4701,6 +5105,16 @@
       "url": "https://json.schemastore.org/swagger-2.0.json"
     },
     {
+      "name": "Synadia Connect Component",
+      "description": "Synadia Connect component definition",
+      "fileMatch": [
+        "**/.connect/scanners/*.yml",
+        "**/.connect/sources/*.yml",
+        "**/.connect/sinks/*.yml"
+      ],
+      "url": "https://raw.githubusercontent.com/synadia-io/connect/main/schemas/component.json"
+    },
+    {
       "name": "task.json",
       "description": "VSCode Task file",
       "fileMatch": ["task.json", "tasks.json"],
@@ -4723,6 +5137,12 @@
       "description": "Taurus bzt cli framework config",
       "fileMatch": ["bzt.yml", "bzt.yaml", "taurus.yml", "taurus.yaml"],
       "url": "https://json.schemastore.org/taurus.json"
+    },
+    {
+      "name": "Tauticord",
+      "description": "Tauticord configuration (v2)",
+      "fileMatch": ["tauticord.yml", "tauticord.yaml"],
+      "url": "https://raw.githubusercontent.com/nwithan8/tauticord/master/.schema/config_v2.schema.json"
     },
     {
       "name": "template.json",
@@ -4810,10 +5230,20 @@
       "url": "https://json.schemastore.org/traefik-v2-file-provider.json"
     },
     {
+      "name": "Traefik v3",
+      "description": "Traefik v3 YAML configuration file",
+      "url": "https://json.schemastore.org/traefik-v3.json"
+    },
+    {
+      "name": "Traefik v3 File Provider",
+      "description": "Traefik v3 Dynamic Configuration File Provider",
+      "url": "https://json.schemastore.org/traefik-v3-file-provider.json"
+    },
+    {
       "name": "transcend.yml",
       "description": "Define personal data in code using Transcend",
       "fileMatch": ["transcend.yml", "transcend.yaml"],
-      "url": "https://raw.githubusercontent.com/transcend-io/cli/main/transcend-yml-schema-v4.json"
+      "url": "https://raw.githubusercontent.com/transcend-io/cli/main/transcend-yml-schema-latest.json"
     },
     {
       "name": "trime.yaml",
@@ -4847,6 +5277,12 @@
       "description": "DefinitelyTyped description manager (TSD)",
       "fileMatch": ["tsd.json"],
       "url": "https://json.schemastore.org/tsd.json"
+    },
+    {
+      "name": "tsdoc.json",
+      "description": "TSDoc configuration file",
+      "fileMatch": ["tsdoc.json"],
+      "url": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json"
     },
     {
       "name": "tsdrc.json",
@@ -5020,7 +5456,18 @@
         "venvironment.json",
         "*.venvironment.json"
       ],
-      "url": "https://json.schemastore.org/venvironment-schema.json"
+      "url": "https://json.schemastore.org/venvironment-schema-v3.2.0.json",
+      "versions": {
+        "1.0.0": "https://json.schemastore.org/venvironment-schema-v1.0.0.json",
+        "1.1.0": "https://json.schemastore.org/venvironment-schema-v1.1.0.json",
+        "1.1.1": "https://json.schemastore.org/venvironment-schema-v1.1.1.json",
+        "2.0.0": "https://json.schemastore.org/venvironment-schema-v2.0.0.json",
+        "2.1.0": "https://json.schemastore.org/venvironment-schema-v2.1.0.json",
+        "2.2.0": "https://json.schemastore.org/venvironment-schema-v2.2.0.json",
+        "3.0.0": "https://json.schemastore.org/venvironment-schema-v3.0.0.json",
+        "3.1.0": "https://json.schemastore.org/venvironment-schema-v3.1.0.json",
+        "3.2.0": "https://json.schemastore.org/venvironment-schema-v3.2.0.json"
+      }
     },
     {
       "name": "venvironment-basic.yaml",
@@ -5033,7 +5480,25 @@
         "venvironment-basic.json",
         "*.venvironment-basic.json"
       ],
-      "url": "https://json.schemastore.org/venvironment-basic-schema.json"
+      "url": "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json",
+      "versions": {
+        "1.0.0": "https://json.schemastore.org/venvironment-basic-schema-v1.0.0.json",
+        "1.1.0": "https://json.schemastore.org/venvironment-basic-schema-v1.1.0.json",
+        "2.0.0": "https://json.schemastore.org/venvironment-basic-schema-v2.0.0.json",
+        "2.1.0": "https://json.schemastore.org/venvironment-basic-schema-v2.1.0.json",
+        "3.0.0": "https://json.schemastore.org/venvironment-basic-schema-v3.0.0.json",
+        "3.2.0": "https://json.schemastore.org/venvironment-basic-schema-v3.2.0.json"
+      }
+    },
+    {
+      "name": "Version Bumper config",
+      "description": "Configuration for Version Bumper, a Composer plugin to bump project versions during release preparations",
+      "fileMatch": [
+        "version-bumper.json",
+        "version-bumper.yaml",
+        "version-bumper.yml"
+      ],
+      "url": "https://raw.githubusercontent.com/eliashaeussler/version-bumper/refs/heads/main/res/version-bumper.schema.json"
     },
     {
       "name": "version.json",
@@ -5116,7 +5581,14 @@
       "name": "vtesttree.yaml",
       "description": "Vector test execution tree description",
       "fileMatch": ["*.vtesttree.yaml", "*.vtesttree.yml", "*.vtesttree.json"],
-      "url": "https://json.schemastore.org/vtesttree-schema.json"
+      "url": "https://json.schemastore.org/vtesttree-schema-v2.3.0.json",
+      "versions": {
+        "1.0.0": "https://json.schemastore.org/vtesttree-schema-v1.0.0.json",
+        "2.0.0": "https://json.schemastore.org/vtesttree-schema-v2.0.0.json",
+        "2.1.0": "https://json.schemastore.org/vtesttree-schema-v2.1.0.json",
+        "2.2.0": "https://json.schemastore.org/vtesttree-schema-v2.2.0.json",
+        "2.3.0": "https://json.schemastore.org/vtesttree-schema-v2.3.0.json"
+      }
     },
     {
       "name": "vtestunit.yaml",
@@ -5129,12 +5601,6 @@
       "description": "v8r configuration file",
       "fileMatch": [".v8rrc.json", ".v8rrc.yaml", ".v8rrc.yml"],
       "url": "https://raw.githubusercontent.com/chris48s/v8r/main/config-schema.json"
-    },
-    {
-      "name": "<div>RIOTS' studio configuration",
-      "description": "the <div>RIOTS' studio configuration",
-      "fileMatch": ["studio.config.json"],
-      "url": "https://webcomponents.dev/assets2/schemas/studio.config.json"
     },
     {
       "name": "WebExtensions",
@@ -5185,9 +5651,15 @@
     },
     {
       "name": "KSP-CKAN",
-      "description": "Metadata spec for KSP-CKAN",
+      "description": "Metadata spec for CKAN meta files",
       "fileMatch": ["*.ckan"],
       "url": "https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/CKAN.schema"
+    },
+    {
+      "name": "KSP-NetKAN",
+      "description": "Metadata spec for NetKAN files",
+      "fileMatch": ["*.netkan", "*.frozen"],
+      "url": "https://raw.githubusercontent.com/KSP-CKAN/CKAN/master/NetKAN.schema"
     },
     {
       "name": "JSON Schema Draft 4",
@@ -5291,14 +5763,15 @@
     {
       "name": "mise",
       "description": "mise config, a polyglot dev tool manager",
-      "fileMatch": [".mise.toml", ".mise.*.toml", "**/mise/config.toml"],
+      "fileMatch": [
+        ".mise.toml",
+        ".mise.*.toml",
+        "mise.toml",
+        "mise.*.toml",
+        "**/.mise/config.toml",
+        "**/mise/config.toml"
+      ],
       "url": "https://mise.jdx.dev/schema/mise.json"
-    },
-    {
-      "name": "mise-settings",
-      "description": "mise settings, a polyglot dev tool manager",
-      "fileMatch": ["**/mise/settings.toml"],
-      "url": "https://mise.jdx.dev/schema/settings.json"
     },
     {
       "name": "mta.yaml",
@@ -5368,6 +5841,12 @@
       "description": "Http-mocker is a tool for mock local requests or proxy remote requests",
       "fileMatch": [".httpmockrc", ".httpmock.json"],
       "url": "https://json.schemastore.org/httpmockrc.json"
+    },
+    {
+      "name": "nitro.json",
+      "description": "Nitro Modules configuration file. Documentation: https://margelo.nitro.com",
+      "fileMatch": [],
+      "url": "https://nitro.margelo.com/nitro.schema.json"
     },
     {
       "name": "neoload",
@@ -5562,18 +6041,19 @@
       "name": "Gradle Enterprise",
       "description": "Gradle Enterprise configuration",
       "fileMatch": ["*gradle-enterprise.yml", "*gradle-enterprise.yaml"],
-      "url": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-10.json",
+      "url": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-11.json",
       "versions": {
-        "1.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-1.json",
-        "2.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-2.json",
-        "3.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-3.json",
-        "4.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-4.json",
-        "5.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-5.json",
-        "6.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-6.json",
-        "7.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-7.json",
-        "8.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-8.json",
-        "9.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-9.json",
-        "10.0": "https://docs.gradle.com/enterprise/admin/schema/gradle-enterprise-config-schema-10.json"
+        "1.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-1.json",
+        "2.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-2.json",
+        "3.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-3.json",
+        "4.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-4.json",
+        "5.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-5.json",
+        "6.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-6.json",
+        "7.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-7.json",
+        "8.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-8.json",
+        "9.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-9.json",
+        "10.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-10.json",
+        "11.0": "https://docs.gradle.com/develocity/helm-admin/schema/gradle-enterprise-config-schema-11.json"
       }
     },
     {
@@ -5614,7 +6094,7 @@
       "name": "swcrc",
       "description": "swc configuration files",
       "fileMatch": [".swcrc"],
-      "url": "https://json.schemastore.org/swcrc.json"
+      "url": "https://swc.rs/schema.json"
     },
     {
       "name": "OpenWeather Road Risk API",
@@ -5882,8 +6362,9 @@
       "name": "Serverless Workflow",
       "description": "serverless workflows",
       "fileMatch": ["*.sw.json", "*.sw.yml"],
-      "url": "https://raw.githubusercontent.com/serverlessworkflow/specification/main/schema/workflow.json",
+      "url": "https://raw.githubusercontent.com/serverlessworkflow/specification/main/schema/workflow.yaml",
       "versions": {
+        "v0.9": "https://raw.githubusercontent.com/serverlessworkflow/specification/0.9.x/schema/workflow.json",
         "v0.8": "https://raw.githubusercontent.com/serverlessworkflow/specification/0.8.x/schema/workflow.json",
         "v0.7": "https://raw.githubusercontent.com/serverlessworkflow/specification/0.7.x/schema/workflow.json",
         "v0.6": "https://raw.githubusercontent.com/serverlessworkflow/specification/0.6.x/schema/workflow.json",
@@ -5899,14 +6380,14 @@
     {
       "name": "Shopware CLI Extension Store Configuration",
       "description": "Shopware CLI Extension Store Configuration",
-      "fileMatch": [".shopware-extension.yml"],
-      "url": "https://raw.githubusercontent.com/FriendsOfShopware/shopware-cli/main/extension/shopware-extension-schema.json"
+      "fileMatch": [".shopware-extension.yml", ".shopware-extension.yaml"],
+      "url": "https://raw.githubusercontent.com/shopware/shopware-cli/main/extension/shopware-extension-schema.json"
     },
     {
       "name": "Shopware CLI Project Store Configuration",
       "description": "Shopware CLI Project Store Configuration",
-      "fileMatch": [".shopware-project.yml"],
-      "url": "https://raw.githubusercontent.com/FriendsOfShopware/shopware-cli/main/shop/shopware-project-schema.json"
+      "fileMatch": [".shopware-project.yml", ".shopware-project.yaml"],
+      "url": "https://raw.githubusercontent.com/shopware/shopware-cli/main/shop/shopware-project-schema.json"
     },
     {
       "name": "Qodana",
@@ -6135,7 +6616,7 @@
       "url": "https://json.schemastore.org/mongodb-atlas-search-index-definition.json"
     },
     {
-      "name": "KoDE/CI build.yaml",
+      "name": "KODE/CI build.yaml",
       "description": "yaml kode/ci build",
       "fileMatch": ["**/.kode/*.yaml"],
       "url": "https://json.schemastore.org/kode-ci-build-1.0.0.json"
@@ -6176,51 +6657,6 @@
       "description": "Documentation: https://github.com/monebag/safebox",
       "fileMatch": ["*safebox*.yaml", "*safebox*.yml"],
       "url": "https://json.schemastore.org/safebox-schema-v1.0.0.json"
-    },
-    {
-      "name": "StrmPrivacy batch job configuration file",
-      "description": "StrmPrivacy batch job. Documentation: https://docs.strmprivacy.io/docs/latest/concepts/data-processing/batch-jobs/",
-      "fileMatch": ["*batch-job-config*.json", "*batch-job-config*.yaml"],
-      "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.BatchJob.json",
-      "versions": {
-        "1.0": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.BatchJob.json"
-      }
-    },
-    {
-      "name": "StrmPrivacy SimpleSchema",
-      "description": "StrmPrivacy SimpleSchema. Documentation: https://docs.strmprivacy.io/docs/latest/quickstart/data-contracts/simple-schema/",
-      "fileMatch": ["*simple-schema*.json", "*simple-schema*.yaml"],
-      "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.Schema.SimpleSchemaDefinition.json",
-      "versions": {
-        "1.0": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.Schema.SimpleSchemaDefinition.json"
-      }
-    },
-    {
-      "name": "StrmPrivacy Stream",
-      "description": "StrmPrivacy Stream. Documentation: https://docs.strmprivacy.io/docs/latest/quickstart/streaming/creating-streams/",
-      "fileMatch": ["*stream.json", "*stream.yaml"],
-      "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.Stream.json",
-      "versions": {
-        "1.0": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.Stream.json"
-      }
-    },
-    {
-      "name": "StrmPrivacy Data Connector",
-      "description": "StrmPrivacy Data Connector. Documentation: https://docs.strmprivacy.io/docs/latest/concepts/data-connectors/",
-      "fileMatch": ["*data-connector.json", "*data-connector.yaml"],
-      "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.DataConnector.json",
-      "versions": {
-        "1.0": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.DataConnector.json"
-      }
-    },
-    {
-      "name": "StrmPrivacy Data Contract",
-      "description": "StrmPrivacy Data Contract. Documentation: https://docs.strmprivacy.io/docs/latest/concepts/data-contracts/",
-      "fileMatch": ["*contract.json", "*contract.yaml"],
-      "url": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.DataContract.json",
-      "versions": {
-        "1.0": "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.DataContract.json"
-      }
     },
     {
       "name": "Sublime Syntax",
@@ -6427,7 +6863,7 @@
     {
       "name": "Databricks Asset Bundles",
       "description": "Databricks Asset Bundles config",
-      "fileMatch": ["**/.databricks.yml"],
+      "fileMatch": ["databricks.yml", "databricks.yaml"],
       "url": "https://json.schemastore.org/databricks-asset-bundles.json"
     },
     {
@@ -6568,10 +7004,10 @@
       "url": "https://json.schemastore.org/glazewm.json"
     },
     {
-      "name": "CGS Custom Card Game (CardGameDef.json)",
-      "description": "Card Game Simulator (CGS) custom card game specification",
-      "fileMatch": ["CardGameDef.json"],
-      "url": "https://www.cardgamesimulator.com/schema/CardGameDef.json"
+      "name": "CGS Card Game Specification (cgs.json)",
+      "description": "Card Game Simulator (CGS) Card Game Specification",
+      "fileMatch": ["cgs.json"],
+      "url": "https://www.cardgamesimulator.com/schema/cgs.json"
     },
     {
       "name": "Custom Machinery Machine",
@@ -6644,12 +7080,6 @@
       "url": "https://raw.githubusercontent.com/kaitai-io/ksy_schema/master/ksy_schema.json"
     },
     {
-      "name": "JSON-WF",
-      "description": "A blogroll interchange format",
-      "fileMatch": [],
-      "url": "https://www.json-wf.org.uk/json-wf-schema-1.0.json"
-    },
-    {
       "name": "Cloud Foundry Application Manifest",
       "description": "A manifest describes a Cloud Foundry application and can be used to deploy it to a Foundation",
       "fileMatch": [],
@@ -6679,7 +7109,7 @@
         "vcluster.yaml",
         "vcluster.yml"
       ],
-      "url": "https://raw.githubusercontent.com/loft-sh/vcluster/main/chart/values.schema.json"
+      "url": "https://raw.githubusercontent.com/loft-sh/vcluster-config/main/vcluster.schema.json"
     },
     {
       "name": "well-known-fursona",
@@ -6847,6 +7277,190 @@
       "description": "Metadata for a Cinnamon spice",
       "fileMatch": ["**/*@*/**/metadata.json"],
       "url": "https://raw.githubusercontent.com/cinnamon-spice-metadata.json"
+    },
+    {
+      "name": "Yandex Workflow Language",
+      "description": "YaWL specification file",
+      "fileMatch": ["*.yawl.yaml", "*.yawl.yml"],
+      "url": "https://raw.githubusercontent.com/yandex-cloud/json-schema-store/master/serverless/workflows/yawl.json"
+    },
+    {
+      "name": "Application list for a WinUtil",
+      "description": "Application list for a WinUtil",
+      "fileMatch": ["**/*winutil*/config/applications.json"],
+      "url": "https://json.schemastore.org/winutil-applications.json"
+    },
+    {
+      "name": "Preset list for a WinUtil",
+      "description": "Preset list for a WinUtil",
+      "fileMatch": ["**/*winutil*/config/preset.json"],
+      "url": "https://json.schemastore.org/winutil-preset.json"
+    },
+    {
+      "name": "Tab list for a LinUtil",
+      "description": "Tab list for a LinUtil",
+      "fileMatch": ["**/*linutil*/**/tabs.toml"],
+      "url": "https://json.schemastore.org/linutil-tabs.json"
+    },
+    {
+      "name": "Tab data for a LinUtil",
+      "description": "Tab data for a LinUtil",
+      "fileMatch": ["**/*linutil*/**/tab_data.toml"],
+      "url": "https://json.schemastore.org/linutil-tab-data.json"
+    },
+    {
+      "name": "ArchitectFX",
+      "description": "Grammar for ArchitectFX's trees",
+      "fileMatch": ["*.jdsl"],
+      "url": "https://json.schemastore.org/architectfx.json"
+    },
+    {
+      "name": "Eidolon Resource",
+      "description": "Resource definitions for Eidolon",
+      "fileMatch": [
+        "*.eidolon.yaml",
+        "*.eidolon.yml",
+        "**/eidolon_resources/**/*.yaml",
+        "**/eidolon_resources/**/*.yml"
+      ],
+      "url": "https://www.eidolonai.com/json_schema/v1/resources/overview.json"
+    },
+    {
+      "name": "Waku Config",
+      "description": "Configuration file for the Waku CLI",
+      "fileMatch": [
+        "**/waku.yml",
+        "**/waku.yaml",
+        "**/waku.json",
+        "**/.waku.yml",
+        "**/.waku.yaml",
+        "**/.waku.json"
+      ],
+      "url": "https://waku.ngjx.org/static/schema.json"
+    },
+    {
+      "name": "ccmod.json",
+      "description": "Mod manifset file for the CCLoader mod loader for the game CrossCode",
+      "fileMatch": ["ccmod.json"],
+      "url": "https://raw.githubusercontent.com/CCDirectLink/CCModDB/refs/heads/master/ccmod-json-schema.json"
+    },
+    {
+      "name": "moon.yml",
+      "description": "Moonrepo project configuration file",
+      "fileMatch": ["moon.yml"],
+      "url": "https://raw.githubusercontent.com/moonrepo/moon/master/website/static/schemas/project.json"
+    },
+    {
+      "name": "WireMock stub mapping",
+      "description": "WireMock stub mapping JSON. See https://wiremock.org/docs/stubbing/",
+      "fileMatch": ["wiremock-stub-mapping.yml", "wiremock-stub-mapping.yaml"],
+      "url": "https://json.schemastore.org/wiremock-stub-mapping.json"
+    },
+    {
+      "name": "Bitmovin Encoding Template",
+      "description": "An encoding workflow from a single configuration template",
+      "fileMatch": ["*.bitmovin.json", "*.bitmovin.yml", "*.bitmovin.yaml"],
+      "url": "https://raw.githubusercontent.com/bitmovin/bitmovin-api-sdk-examples/main/bitmovin-encoding-template.json"
+    },
+    {
+      "name": "dtool dataset metadata",
+      "description": "Metadata attached to a dtool dataset",
+      "fileMatch": [
+        "dtool-dataset.yml",
+        "dtool-dataset.yaml",
+        "dtool-dataset.json"
+      ],
+      "url": "https://json.schemastore.org/dtool-dataset-metadata-1.0.json",
+      "versions": {
+        "v1.0": "https://json.schemastore.org/dtool-dataset-metadata-1.0.json"
+      }
+    },
+    {
+      "name": "pnpm Workspace (pnpm-workspace.yaml)",
+      "description": "Workspace file for pnpm",
+      "fileMatch": ["pnpm-workspace.yaml"],
+      "url": "https://json.schemastore.org/pnpm-workspace.json"
+    },
+    {
+      "name": "Chamaleon template",
+      "description": "Chamaleon template",
+      "fileMatch": ["template.chamaleon.json"],
+      "url": "https://raw.githubusercontent.com/gerardorodriguezdev/chamaleon/refs/heads/master/schemas/template-schema.json"
+    },
+    {
+      "name": "Chamaleon environment",
+      "description": "Chamaleon environment",
+      "fileMatch": ["*.environment.chamaleon.json"],
+      "url": "https://raw.githubusercontent.com/gerardorodriguezdev/chamaleon/refs/heads/master/schemas/environment-schema.json"
+    },
+    {
+      "name": "Chamaleon properties",
+      "description": "Chamaleon properties",
+      "fileMatch": ["properties.chamaleon.json"],
+      "url": "https://raw.githubusercontent.com/gerardorodriguezdev/chamaleon/refs/heads/master/schemas/properties-schema.json"
+    },
+    {
+      "name": "ctfd-setup configuration file",
+      "description": "CTFer.io ctfd-setup utility configuration file",
+      "fileMatch": [".ctfd.yaml"],
+      "url": "https://json.schemastore.org/ctfd.json"
+    },
+    {
+      "name": "AMX Muse Program Descriptor",
+      "description": "A MUSE program descriptor file",
+      "fileMatch": [],
+      "url": "https://json.schemastore.org/amx-muse.json"
+    },
+    {
+      "name": "DonateCaseBetterCasino menu",
+      "description": "Configuration file for dcbc addon menus",
+      "fileMatch": ["*dcbc.yml", "*dcbc.yaml"],
+      "url": "https://raw.githubusercontent.com/Jodexx/DCBetterCasinoMenuSchema/refs/heads/main/schema.json"
+    },
+    {
+      "name": "gematik health care patient list",
+      "description": "A list of health care patients in german telemedicine",
+      "fileMatch": [
+        "**/testdata/patient/patients.yml",
+        "**/testdata/patient/patients.yaml"
+      ],
+      "url": "https://json.schemastore.org/gematik-test-patients.json"
+    },
+    {
+      "name": "gematik health care provider list",
+      "description": "A list of health care providers in german telemedicine",
+      "fileMatch": ["**/testdata/hcp/hcp.yml", "**/testdata/hcp/hcp.yaml"],
+      "url": "https://json.schemastore.org/gematik-test-hcps.json"
+    },
+    {
+      "name": "gematik health care provider institution list",
+      "description": "A list of health care provider institutions in german telemedicine",
+      "fileMatch": [
+        "**/testdata/institution/hcpi.yml",
+        "**/testdata/institution/hcpi.yaml"
+      ],
+      "url": "https://json.schemastore.org/gematik-test-hcpis.json"
+    },
+    {
+      "name": "gematik health care insurance list",
+      "description": "A list of health care insurances in german telemedicine",
+      "fileMatch": [
+        "**/testdata/insurance/insurance.yml",
+        "**/testdata/insurance/insurance.yaml"
+      ],
+      "url": "https://json.schemastore.org/gematik-test-hcpis.json"
+    },
+    {
+      "name": "gematik tiger test environment configuration",
+      "description": "A configuration file for the test environment of the gematik Tiger test platform",
+      "fileMatch": ["**/tiger.yml", "**/tiger.yaml"],
+      "url": "https://json.schemastore.org/gematik-tiger.json"
+    },
+    {
+      "name": "Tugboat QA config.yml",
+      "description": "Configuration file for Tugboat QA",
+      "fileMatch": ["**/.tugboat/config.yml"],
+      "url": "https://raw.githubusercontent.com/TugboatQA/docs/refs/heads/main/static/config-schema.json"
     }
   ]
 }

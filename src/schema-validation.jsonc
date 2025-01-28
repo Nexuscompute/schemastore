@@ -67,8 +67,10 @@
     "devinit.schema-4.0.json",
     "devinit.schema-5.0.json",
     "devinit.schema-6.0.json",
+    "dofigen.json",
     "dotnetcli.host.json",
     "drone.json",
+    "drupal-recipe.json",
     "electron-builder.json",
     "eslintrc.json",
     "esmrc.json",
@@ -79,6 +81,7 @@
     "expo-41.0.0.json",
     "expo-42.0.0.json",
     "expo-46.0.0.json",
+    "expo-50.0.0.json",
     "feed-1.json",
     "feed.json",
     "foundryvtt-module-manifest.json",
@@ -87,7 +90,6 @@
     "function.json",
     "gaspar-1.0.json",
     "gaspar-3.0.json",
-    "geojson.json",
     "github-action.json",
     "github-funding.json",
     "github-workflow-template-properties.json",
@@ -104,6 +106,7 @@
     "hws-config.json",
     "install.json",
     "jasonette.json",
+    "jest.json",
     "jovo-language-model.json",
     "jsconfig.json",
     "jscsrc.json",
@@ -116,6 +119,7 @@
     "kestra-0.18.1.json",
     "kestra-0.18.2.json",
     "kestra-0.18.3.json",
+    "kestra-0.19.0.json",
     "kong_json_schema.json",
     "kustomization.json",
     "label-commenter-config.json",
@@ -212,7 +216,11 @@
     "vsix-manifestinjection.json",
     "vsix-publish.json",
     "vss-extension.json",
-    "vtesttree-schema.json",
+    "vtesttree-schema-v1.0.0.json",
+    "vtesttree-schema-v2.0.0.json",
+    "vtesttree-schema-v2.1.0.json",
+    "vtesttree-schema-v2.2.0.json",
+    "vtesttree-schema-v2.3.0.json",
     "web-types.json",
     "webextension.json",
     "webjob-publish-settings.json",
@@ -284,7 +292,8 @@
     "license-report-config.json",
     "openweather.current.json",
     "openweather.roadrisk.json",
-    "specif-1.1.json"
+    "specif-1.1.json",
+    "ctfd.json"
   ],
   "missingCatalogUrl": [
     // Below this line are subschemas that are included from other schema
@@ -292,18 +301,21 @@
     "base-04.json",
     "partial-pyright.json", // pyproject.json[tool.pyright]
     "partial-setuptools.json", // pyproject.json[tool.setuptools]
+    "partial-setuptools-scm.json", // pyproject.json[tool.setuptools-scm]
     "partial-scikit-build.json", // pyproject.json[tool.scikit-build]
     "partial-cibuildwheel.json", // pyproject.json[tool.cibuildwheel]
     "partial-mypy.json", // pyproject.json[tool.mypy]
     "partial-pdm.json", // pyproject.json[tool.pdm]
+    "partial-pdm-dockerize.json", // pyproject.json[tool.pdm.dockerize]
+    "partial-poe.json", // pyproject.json[tool.poe]
     "partial-poetry.json", // pyproject.json[tool.poetry]
+    "partial-tox.json", // pyproject.json[tool.tox]
     "partial-eslint-plugins.json", // eslintrc.json[rules.*]
     "partial-fusion-pack-metadata.json", // minecraft-pack-mcmeta.json[fusion]
     "partial-fusion-texture-metadata.json", // minecraft-texture-mcmeta.json[fusion]
     "poetry.json", // backwards-compat
     "setuptools.json", // backwards-compat
     "scikit-build.json", // backwards-compat
-    "geojson.json", // backwards-compat
     "azure-deviceupdate-manifest-definitions-4.0.json",
     "azure-deviceupdate-manifest-definitions-5.0.json",
     "compilerdefaults.json",
@@ -350,9 +362,11 @@
     "haxelib.json",
     "ksp-avc.json",
     "ksp-ckan.json",
+    "problem_package_generators.json",
     "theme-v1.json",
     "renovate.json",
     "markdownlint.json",
+    "geojson.json",
     "semgrep.json",
     "taskfile.json",
     "neoload.json",
@@ -373,7 +387,6 @@
     "https://json.schemastore.org/schema-org-place.json",
     "https://json.schemastore.org/schema-org-thing.json",
     "https://json.schemastore.org/lsdlschema.json",
-    "https://json-schema.api.strmprivacy.io/latest/strmprivacy.api.entities.v1.Schema.SimpleSchemaDefinition.json",
     "https://json.schemastore.org/BizTalkServerApplicationSchema.json",
     "https://json.schemastore.org/metaschema-draft-07-unofficial-strict.json",
     "https://json.schemastore.org/schema-draft-v4.json"
@@ -437,6 +450,46 @@
         "abcNoDuplicateValuesForOrderingProperty",
         "abcHasNonOverlappingTimeDependentValues",
         "abcHasUninterruptedTimeDependentValues"
+      ]
+    },
+    "abc-supply-plan-5.0.0.json": {
+      "unknownFormat": ["abc-draft-js_RawDraftContentState"],
+      "unknownKeywords": [
+        "abcIsFirstDayOfMonth",
+        "abcIsLastDayOfMonth",
+        "abcIsAfter0001-01-01",
+        "abcIsBefore9999-12-31",
+        "abcDoMaterialIDsExist",
+        "abcIsAcyclic",
+        "abcAreAllocationMethodsHomogeneous",
+        "abcIsValidColor",
+        "abcNoDuplicateValuesForOrderingProperty",
+        "abcHasNonOverlappingTimeDependentValues",
+        "abcHasUninterruptedTimeDependentValues",
+        "abcIsExpirationDateOnOrAfterManufactureDate",
+        "abcIsReleaseDateOnOrAfterPlanDate",
+        "abcIsReleaseDateOnOrAfterManufactureDate",
+        "abcIsExpirationDateOnOrAfterReleaseDate"
+      ]
+    },
+    "abc-supply-plan-6.0.0.json": {
+      "unknownFormat": ["abc-draft-js_RawDraftContentState"],
+      "unknownKeywords": [
+        "abcIsFirstDayOfMonth",
+        "abcIsLastDayOfMonth",
+        "abcIsAfter0001-01-01",
+        "abcIsBefore9999-12-31",
+        "abcDoMaterialIDsExist",
+        "abcIsAcyclic",
+        "abcAreAllocationMethodsHomogeneous",
+        "abcIsValidColor",
+        "abcNoDuplicateValuesForOrderingProperty",
+        "abcHasNonOverlappingTimeDependentValues",
+        "abcHasUninterruptedTimeDependentValues",
+        "abcIsExpirationDateOnOrAfterManufactureDate",
+        "abcIsReleaseDateOnOrAfterPlanDate",
+        "abcIsReleaseDateOnOrAfterManufactureDate",
+        "abcIsExpirationDateOnOrAfterReleaseDate"
       ]
     },
     "anywork-ac-1.0.json": {
@@ -503,13 +556,16 @@
     "bower.json": {
       "externalSchema": ["base-04.json"]
     },
+    "bun-lock.json": {
+      "unknownKeywords": ["allowTrailingCommas"]
+    },
     "cargo-make.json": {
       "unknownKeywords": ["x-taplo", "x-taplo-info", "links"]
     },
     "cargo.json": {
       "externalSchema": ["base.json"],
       "unknownFormat": ["uint32", "semver", "semver-requirement"],
-      "unknownKeywords": ["x-taplo", "x-taplo-info"]
+      "unknownKeywords": ["x-taplo", "x-taplo-info", "x-tombi-toml-version"]
     },
     "cheatsheets.json": {
       "externalSchema": ["base.json"]
@@ -671,6 +727,20 @@
     "foxx-manifest.json": {
       "externalSchema": ["base-04.json"]
     },
+    "gematik-test-patients.json": {
+      "unknownKeywords": ["existingJavaType"]
+    },
+    "gematik-test-insurances.json": {
+      "unknownKeywords": ["existingJavaType"]
+    },
+    "gematik-test-hcps.json": {
+      "externalSchema": ["gematik-test-patients.json"],
+      "unknownKeywords": ["existingJavaType"]
+    },
+    "gematik-test-hcpis.json": {
+      "externalSchema": ["gematik-test-patients.json"],
+      "unknownKeywords": ["existingJavaType"]
+    },
     "grafana-dashboard-5.x.json": {
       "externalSchema": ["base-04.json"]
     },
@@ -719,6 +789,9 @@
     "jekyll.json": {
       "externalSchema": ["base.json"]
     },
+    "jest.json": {
+      "unknownKeywords": ["enumDescriptions"]
+    },
     "jsbeautifyrc-nested.json": {
       "externalSchema": ["jsbeautifyrc.json"]
     },
@@ -754,6 +827,14 @@
       ]
     },
     "kestra-0.18.3.json": {
+      "unknownKeywords": [
+        "markdownDescription",
+        "$deprecated",
+        "$dynamic",
+        "$metrics"
+      ]
+    },
+    "kestra-0.19.0.json": {
       "unknownKeywords": [
         "markdownDescription",
         "$deprecated",
@@ -858,7 +939,11 @@
       "unknownKeywords": ["markdownDescription", "x-intellij-html-description"]
     },
     "partial-pdm.json": {
-      "unknownKeywords": ["x-taplo", "x-taplo-info"]
+      "unknownKeywords": ["x-taplo", "x-taplo-info"],
+      "externalSchema": ["partial-pdm-dockerize.json"]
+    },
+    "partial-pdm-dockerize.json": {
+      "unknownKeywords": ["x-taplo"]
     },
     "partial-poetry.json": {
       "externalSchema": ["base.json"]
@@ -873,6 +958,17 @@
         "python-qualified-identifier",
         "python-identifier",
         "pep561-stub-name"
+      ]
+    },
+    "partial-setuptools-scm.json": {
+      "unknownKeywords": ["markdownDescription", "x-intellij-html-description"]
+    },
+    "partial-tox.json": {
+      "unknownKeywords": [
+        "markdownDescription",
+        "x-intellij-html-description",
+        "x-intellij-language-injection",
+        "x-taplo"
       ]
     },
     "pdm.json": {
@@ -909,10 +1005,14 @@
         "partial-cibuildwheel.json",
         "partial-mypy.json",
         "partial-pdm.json",
+        "partial-pdm-dockerize.json",
+        "partial-poe.json",
         "partial-poetry.json",
         "partial-pyright.json",
         "partial-scikit-build.json",
         "partial-setuptools.json",
+        "partial-setuptools-scm.json",
+        "partial-tox.json",
         "poetry.json",
         "ruff.json",
         "uv.json",
@@ -933,6 +1033,7 @@
         "markdownDescription",
         "x-taplo",
         "x-taplo-info",
+        "x-tombi-toml-version",
         "x-intellij-html-description",
         "x-intellij-language-injection"
       ]
@@ -966,7 +1067,12 @@
       "unknownKeywords": ["x-taplo", "x-taplo-info"]
     },
     "rustfmt.json": {
-      "unknownKeywords": ["x-taplo", "x-taplo-info"]
+      "unknownKeywords": [
+        "x-taplo",
+        "x-taplo-info",
+        "markdownDescription",
+        "x-intellij-html-description"
+      ]
     },
     "sarif-external-property-file-2.1.0-rtm.0.json": {
       "externalSchema": ["sarif-2.1.0-rtm.0.json"],
